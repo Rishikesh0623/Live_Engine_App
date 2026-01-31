@@ -1,3 +1,14 @@
+"""
+radio.py
+Controls the car radio system.
+
+Rules:
+- Radio can only be turned ON if the engine is running
+- Radio turns OFF automatically when the engine stops
+
+Uses shared state to check engine availability.
+"""
+
 import state
 
 def toggle_radio():
