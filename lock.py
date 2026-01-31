@@ -1,3 +1,14 @@
+"""
+lock.py
+Controls door locking and unlocking.
+
+Rules:
+- Lock and unlock can work independently of engine state
+- Can be used even when the engine is OFF
+
+Represents security-related functionality.
+"""
+
 import state
 
 def toggle_lock():
